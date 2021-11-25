@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="save-update">
+
+	<class name="MarcaSeguimiento" table="MarcaSeguimiento" lazy="false">
+
+		<id name="Id" column="MarcaSeguimientoID" type="System.Int32" unsaved-value="null">
+			<generator class="native"/>
+		</id>
+		<property name="EntidadTipo" column="EntidadTipo"	type="String"	not-null="true" />
+		<property name="EntidadId" column="EntidadId"		type="String"	not-null="true"/>
+    <property name="Imagen" column="Imagen"	type="ImagenSeguimiento"	not-null="true" />
+    <property name="FechaSeguimiento"	column="FechaSeguimiento"	type="DateTime"		not-null="false"	/>
+    <property name="Comentarios" column="Comentarios"	type="String" />
+
+    <property name="EntidadDescripcion" formula="dbo.DescripcionEntidadMarcaSeguimiento(EntidadTipo, EntidadID)" type="String"/>
+
+    <property name="Publica"	column="Publica"	type="Boolean" />
+    <property name="CreadoEl"	column="CreadoEl"	type="DateTime"		not-null="true"	/>
+    <property name="Aviso"	column="Aviso"	type="Boolean" />
+    <property name="FechaAviso"	column="FechaAviso"	type="DateTime"	not-null="false" />
+
+    <many-to-one name="CreadoPor" class="UsuarioLight" column="CreadoPor" outer-join="true" cascade="none"/>
+
+	</class>
+</hibernate-mapping>

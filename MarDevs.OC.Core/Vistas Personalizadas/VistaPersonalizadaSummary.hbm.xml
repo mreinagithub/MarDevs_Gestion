@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="none">
+  <class  name="VistaPersonalizadaSummary" table="VistaPersonalizadaSummary" lazy="false">
+    <id  name="Id" column="VistaPersonalizadaSummaryId"  unsaved-value="null" type="Int32">
+      <generator class="native"/>
+    </id>
+
+    <many-to-one name="VistaPersonalizada" column="VistaPersonalizadaID" update="false"
+      class="VistaPersonalizada"
+      outer-join="false" cascade="none"/>
+
+    <property name="Campo"			column="Campo"		  type="String" />    
+    <property name="Accion"	    column="Accion"     type="AccionSummary" access="field.pascalcase-m-underscore" />    
+    <property name="Formula"    column="Formula"    type="String" />
+    <property name="Display"    column="Display"    type="String" />
+    <property name="Ubicacion"	    column="Ubicacion"     type="UbicacionSummary" />
+
+  </class>
+</hibernate-mapping>
+

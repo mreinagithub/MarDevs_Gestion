@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="none">
+  <class  name="VistaPersonalizadaParametro" table="VistaPersonalizadaParametro" lazy="false">
+    <id  name="Id" column="VistaPersonalizadaParametroId"  unsaved-value="null" type="Int32" >
+      <generator class="native"/>
+    </id>
+
+    <many-to-one name="VistaPersonalizada" column="VistaPersonalizadaID" update="false"
+      class="VistaPersonalizada"
+      outer-join="false" cascade="none"/>
+
+    <property name="IdParametro"			column="IdParametro"		  type="String"		/>
+    <property name="Etiqueta"	        column="Etiqueta"		      type="String"		/>
+    <property name="TipoControl"	    column="TipoControl"      type="TipoControl" />
+    <property name="PuntoX"       	  column="PuntoX"	          type="Int32"		/>
+    <property name="PuntoY"       	  column="PuntoY"	          type="Int32"		/>
+    <property name="Ancho"       	    column="Ancho"	          type="Int32"		/>
+    <property name="AnchoEtiqueta"    column="AnchoEtiqueta"    type="Int32"		/>
+    <property name="Alto"             column="Alto"             type="Int32"  />
+    <property name="Orden"            column="Orden"            type="Int32"		/>
+    <property name="ConsultaDatos"    column="ConsultaDatos"    type="String"		/>
+    <property name="ConsultaDefault"  column="ConsultaDefault"  type="String"		/>
+    <property name="Activo"           column="Activo"           type="Boolean"  />    
+    
+  </class>
+</hibernate-mapping>
+

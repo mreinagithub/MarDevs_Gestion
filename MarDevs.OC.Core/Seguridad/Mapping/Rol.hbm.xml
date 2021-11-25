@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="none">
+	<class name="Rol" table="Rol" lazy="false">
+		<cache usage="read-write"/>
+
+		<id name="Id" column="RolID" type="Int32" unsaved-value="null" >
+			<generator class="native"/>
+		</id>
+		<property name="Nombre" column="RolNombre" type="String" length="25" not-null="true" access="field.pascalcase-m-underscore" />
+		<property name="Editable" column="RolEditable" type="Boolean" not-null="true" access="field.pascalcase-m-underscore" />
+		<property name="CreadoEl" column="FechaDeCarga" type="System.DateTime"  update="false"/>
+
+		<many-to-one name="CreadoPor" class="UsuarioLight" column="UsuarioIdCarga" outer-join="false" cascade="none"  update="false" />
+		
+		<bag name="Privilegios" table="RolPrivilegio" generic="true"  lazy="true" cascade="none" access="field.pascalcase-m-underscore">
+			<cache usage="read-write"/>
+			<key column="RolID"/>
+			<composite-element class="RolPrivilegio">
+				<many-to-one cascade="none" name="Privilegio" column="PrivilegioID" class="Privilegio" />
+		        <property name="Alcance" column="PrivilegioAlcance" type="Int32" />
+			</composite-element>
+		</bag>
+    
+    <bag name="Usuarios" table="UsuarioRol" cascade="none" lazy="true" access="field.pascalcase-m-underscore" >
+      <cache usage="read-write"/>
+      <key column="RolID"/>
+      <many-to-many column="UsuarioID" class="Usuario" />
+    </bag>
+
+  </class>
+</hibernate-mapping>

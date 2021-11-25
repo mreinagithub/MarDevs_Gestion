@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="save-update">
+  <class name="Formulario" table="Formulario" lazy="false">
+    <cache usage="nonstrict-read-write" />
+
+    <id name="Id" column="FormularioID" type="Int32" unsaved-value="null" >
+      <generator class="native"/>
+    </id>
+    <property name="Tipo"	type="TipoFormulario"	not-null="true" />
+    <property name="Descripcion" type="String" />
+    <property name="Contenido"	type="BinaryBlob"	not-null="false"/>
+    <property name="Copias"	type="Int32"	not-null="true" />
+    <property name="FechaModificacion" type="DateTime" not-null="true" />
+  </class>
+</hibernate-mapping>

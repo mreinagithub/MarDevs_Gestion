@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="save-update">
+  <class name="PrincipalSeguridad" table="PrincipalSeguridad" mutable="false" lazy="false" batch-size="100" >
+	  <cache usage="read-only"/>
+	  <id name="Id" column="PrincipalSeguridadID" type="Int32" unsaved-value="null" >
+		  <generator class="native"/>
+	  </id>
+	  <property name ="Tipo" column="Tipo" />
+	  <property name ="EntidadID" column="Id" />
+	  <property name ="Descripcion" column="Descripcion" />
+    <property name ="Activo" column="Activo" />
+    
+  </class>
+</hibernate-mapping>
+

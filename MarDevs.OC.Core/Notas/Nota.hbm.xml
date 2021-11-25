@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="save-update">
+
+	<class name="Nota" table="Nota" lazy="false">
+
+		<id name="Id" column="NotaId" type="Int32" unsaved-value="null" >
+			<generator class="native"/>
+		</id>
+		<property name="EntidadTipo" column="EntidadTipo"	type="String"		not-null="true" />
+		<property name="EntidadId" column="EntidadId"		type="String"	not-null="true" />
+		<property name="Texto" column="Texto"			type="String"		not-null="true" />
+    <property name="Confidencial"	column="Confidencial"	type="Boolean" />
+    <property name="CreadoEl"	column="FechaDeCarga"	type="DateTime"		not-null="true"	/>
+
+		<many-to-one name="CreadoPor" class="UsuarioLight" column="UsuarioIdCarga" outer-join="true" cascade="none" />
+
+	</class>
+</hibernate-mapping>

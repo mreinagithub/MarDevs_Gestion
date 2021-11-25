@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="save-update">
+	<class name="Numerador" table="Numerador" lazy="false">
+
+		<id name="Id" column="NumeradorId" type="Int32" unsaved-value="null" >
+			<generator class="native"/>
+		</id>
+    <property name="Tipo"		column="Tipo"	type="String" not-null="true" update="false" />
+		<property name="Letra"		column="Letra"	type="String" not-null="true" update="false" />
+    <property name="Sucursal"	column="Sucursal"	type="Int32" not-null="true" update="false" />
+    <property name="ProximoNumero"	column="ProximoNumero"	type="Int32" not-null="true" />
+    <property name="ModificadoEl" column="ModificadoEl" type="System.DateTime" not-null="false" />
+    <many-to-one name="ModificadoPor" class="UsuarioLight" column="ModificadoPor" outer-join="false" cascade="none" />
+
+  </class>
+</hibernate-mapping>

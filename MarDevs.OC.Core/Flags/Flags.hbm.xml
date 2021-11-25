@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="none">
+	<class name="Flags" table="Flags" lazy="false">
+		<cache usage="nonstrict-read-write"/>
+
+		<id name="Id" column="FlagsId" type="Int32" unsaved-value="null" >
+			<generator class="native"/>
+		</id>
+
+    <property name="PasswordLongitudMinima"	type="Int32" />
+    <property name="PasswordLongitudMaxima"	type="Int32" />
+    <property name="DiasVigenciaPassword"	type="Int32" />
+    
+    
+		<property name="UpdaterHabilitado" type="Boolean" />
+		<property name="UpdaterURL"	type="String"	length="500" />
+    <property name="FrecuenciaBusquedaActualizaciones" type="Int32"	 />
+    
+		<property name="MailSmtp" type="String"	length="100" />
+    <property name="MailPort"	type="Int32" />
+		<property name="MailUserAuth" type="String"	length="100" />
+		<property name="MailPassAuth"	type="String"	length="100" />
+		<property name="MailFrom"	type="String"	length="100" />
+    <property name="MailFromDisplayName"	type="String"	length="100" />
+    <property name="HabilitarSSL"	type="Boolean" />
+
+    <property name="NombreInstalacion" type="String"/>    
+    
+    <property name="TelefonoNormalPatronValidacion" type="String" />
+    <property name="TelefonoNormalTextoAyuda" type="String" />
+    <property name="TelefonoCelularPatronValidacion" type="String" />
+    <property name="TelefonoCelularTextoAyuda" type="String" />
+    <property name="EmailPatronValidacion" type="String" />    
+
+
+  </class>
+</hibernate-mapping>

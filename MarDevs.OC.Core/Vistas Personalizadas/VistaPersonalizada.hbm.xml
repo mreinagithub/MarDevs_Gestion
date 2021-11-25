@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" default-cascade="none">
+  <class  name="VistaPersonalizada" table="VistaPersonalizada" lazy="false">
+    <id  name="Id" column="VistaPersonalizadaId"  unsaved-value="null" type="Int32" >
+      <generator class="native"/>
+    </id>
+
+    <property name="Entidad" type="String"	not-null="true" />
+    <property name="Nombre"	column="Nombre"	type="String"/>
+    <property name="Descripcion" column="Descripcion"	type="String" />
+    <property name="Orden" column="Orden"	type="Int32" />
+    <property name="TipoVista" column="TipoVista" type="TipoVistaPersonalizada" />
+    <property name="Texto" column="Texto"	type="String"	/>
+    <property name="CreadoEl" column="CreadoEl" type="DateTime" update="false" />
+    <property name="Ruta"	column="Ruta"	type="String"	/>
+    <many-to-one name="CreadoPor" column="CreadoPor" update="false"	class="UsuarioLight" outer-join="false" cascade="none" />
+
+    <list name="Formatos" table="VistaPersonalizadaFormatoColumna" cascade="all" lazy="true"  access="field.pascalcase-m-underscore" >
+      <key column="VistaPersonalizadaId"/>
+      <index column="Orden"/>
+      <composite-element class="VistaPersonalizadaFormatoColumna">
+        <parent   name="VistaPersonalizada"/>
+        <property name="Columna"			column="Columna"		type="String"		/>
+        <property name="Titulo"		column="Titulo"		type="String"		/>
+        <property name="Formato"	column="Formato"	type="String"		/>
+        <property name="ValueList" type="String" />
+        <property name="BackColor"	column="BackColor"	type="Int32"		/>
+        <property name="ForeColor"	column="ForeColor"	type="Int32"		/>
+        <property name="Bold"	column="Bold"	type="Boolean"		/>
+        <property name="Ancho"	column="Ancho"	type="Int32"		/>
+        <property name="Visible"	column="Visible"	type="Boolean"		/>
+        <property name="ExcluirDelSelector" type="Boolean"		/>
+      </composite-element>
+    </list>
+
+    <bag name="Permisos" table="VistaPersonalizadaPermiso" generic="true" cascade="none" lazy="true" batch-size="100"  access="field.pascalcase-m-underscore" >
+      <cache usage="read-write"/>
+      <key column="VistaPersonalizadaId"/>      
+      <many-to-many column="PrincipalSeguridadId" class="PrincipalSeguridad" />
+    </bag>
+
+    <bag name="Parametros"  lazy="true" cascade="all-delete-orphan" generic="true"  access="field.pascalcase-m-underscore" >
+      <key column="VistaPersonalizadaID" update="false" />
+      <one-to-many class="VistaPersonalizadaParametro" />
+    </bag>
+
+    <bag name="Summaries"  lazy="true" cascade="all-delete-orphan" generic="true"  access="field.pascalcase-m-underscore" >
+      <key column="VistaPersonalizadaID" update="false" />
+      <one-to-many class="VistaPersonalizadaSummary" />
+    </bag>
+
+    <property name="EjecutarAlAbrir"	column="EjecutarAlAbrir"		type="Boolean"		/>
+    <property name="VistaActiva"		column="VistaActiva"		type="Boolean"		/>
+    <property name="ImagenCarpeta"		column="ImagenCarpeta"		  type="String"		/>
+    
+  </class>
+</hibernate-mapping>
