@@ -42,7 +42,7 @@ namespace MarDevs.OC.Win
 
 			if( ex == null || (ex != null && ex.DebeConsiderarseError) )
 			{
-				// es una excepcion comun o es una excepcion "daruma" y debe publicarse
+				// es una excepcion y debe publicarse
 				AdministradorDeExcepciones.Publicar(excepcion);
 			}
 			if( excepcion == null )

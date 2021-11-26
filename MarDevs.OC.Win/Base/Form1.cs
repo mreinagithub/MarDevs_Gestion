@@ -1428,7 +1428,7 @@ namespace MarDevs.OC.Win
 				form.Key = key;
 				form.Descripcion = descripcion;
                 
-                //WORKARROUND PARA QUE LOS RECURSOS SE TRAIGAN O DE ESTE PROYECTO O DE DARUMA.COMUN
+                //WORKARROUND PARA QUE LOS RECURSOS SE TRAIGAN
                 //HAY QUE PLANTEAR UNA FORMA UNIFORME DE OBTENER RECURSOS
                 object recurso = App.TraerRecurso(nombreIcono);
 				if (recurso is Icon)

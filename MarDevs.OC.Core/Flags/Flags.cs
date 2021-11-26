@@ -4,7 +4,7 @@ using System.ComponentModel;
 namespace MarDevs.OC.Core
 {
 	/// <summary>
-	/// Clase que implementa los flags del modelo de seguridad de Daruma.Comun
+	/// Clase que implementa los flags del modelo de seguridad
 	/// se puede heredar de esta clase en cualquier sistema que utilice seguridad
 	/// para agregar Flags propios
 	/// </summary>

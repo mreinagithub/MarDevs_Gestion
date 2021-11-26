@@ -265,7 +265,7 @@ namespace MarDevs.OC.Win
 		}
 		public static object TraerRecurso(string nombreRecurso)
 		{
-			//WORKARROUND PARA QUE LOS RECURSOS SE TRAIGAN O DE ESTE PROYECTO O DE DARUMA.COMUN
+			//WORKARROUND PARA QUE LOS RECURSOS
 			//HAY QUE PLANTEAR UNA FORMA UNIFORME DE OBTENER RECURSOS
 			object recurso = MarDevs.OC.Win.Properties.Resources.ResourceManager.GetObject(nombreRecurso);
 			if (recurso == null)

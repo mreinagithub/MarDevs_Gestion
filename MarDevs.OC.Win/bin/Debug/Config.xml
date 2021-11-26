@@ -4,5 +4,5 @@
   <Instancia />
   <Puerto />
   <BaseDatos>MARDEVS_OC</BaseDatos>
-  <VersionReportada>1.0.0.1</VersionReportada>
+  <VersionReportada>1.0.0.0</VersionReportada>
 </Config>

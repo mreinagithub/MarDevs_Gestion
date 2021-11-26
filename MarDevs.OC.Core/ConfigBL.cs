@@ -13,8 +13,8 @@ namespace MarDevs.OC.Core
             + "La próxima pantalla le permitirá ingresar los datos necesarios para conectarse a la Base de Datos.";
 
 		public static string STR_ERROR_CONEXION		= "No se pudo lograr la conexión a la base de datos.";
-		private static string usuarioLogon = "marDev";//"darumaCRM";
-		private static string usuarioPass = "mDev@1686";//"dAruma@1247";
+		private static string usuarioLogon = "marDev";
+		private static string usuarioPass = "mDev@1686";
         private static string nombreArchivoConfiguracion = "Config.xml";
         private static TimeSpan diferenciaServer;
         private static Config config = null;

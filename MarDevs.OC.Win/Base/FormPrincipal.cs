@@ -112,7 +112,7 @@ namespace MarDevs.OC.Win
 
 				string carpeta = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)
 				+ Path.DirectorySeparatorChar
-				+ "Daruma Consulting"
+				+ "MarDevs"
 				+ Path.DirectorySeparatorChar
 				+ System.Reflection.Assembly.GetEntryAssembly().GetName().Name;
 

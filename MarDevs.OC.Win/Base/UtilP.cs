@@ -689,7 +689,7 @@ namespace MarDevs.OC.Win
 		{
 			string carpeta = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)
 				+ Path.DirectorySeparatorChar
-				+ "Daruma"
+				+ "MarDevs"
 				+ Path.DirectorySeparatorChar
 				+ System.Reflection.Assembly.GetEntryAssembly().GetName().Name;
 				if (ConfigBL.ticket != null)
