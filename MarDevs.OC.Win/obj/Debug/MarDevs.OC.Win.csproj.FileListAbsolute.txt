@@ -164,7 +164,6 @@ H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\log4net.dll
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\Eval3.dll
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\Iesi.Collections.dll
-H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\MarDevs.OC.Core.pdb
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\Infragistics4.Documents.Excel.v12.1.xml
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\Infragistics4.Shared.v12.1.xml
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\Infragistics4.Win.AppStylistSupport.v12.1.xml
@@ -186,10 +185,11 @@ H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\Infragistics4.Win.UltraWinToolbars.v12.1.xml
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\Infragistics4.Win.UltraWinTree.v12.1.xml
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\Infragistics4.Win.v12.1.xml
+H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\MarDevs.OC.Core.pdb
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\NHibernate.xml
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\Iesi.Collections.xml
-H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\MarDevs.OC.Win.csproj.AssemblyReference.cache
+H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\MarDevs.OC.Win.csproj.SuggestedBindingRedirects.cache
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\MarDevs.OC.Win.EditorBase.resources
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\MarDevs.OC.Win.FormFormulario.resources
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\MarDevs.OC.Win.FormProcesarAccionError.resources
@@ -260,4 +260,3 @@ H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\MarDevs.OC.Win.csproj.CopyComplete
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\OC.exe
 H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\OC.pdb
-H:\Documents\Google Drive\MARDEVS\Proyectos\MarDevs.OC\MarDevs.OC.Win\obj\Debug\MarDevs.OC.Win.csproj.SuggestedBindingRedirects.cache
