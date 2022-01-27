@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{015AE234-1EEF-497B-AC2D-4F5878E27DFC}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>MarDevs.Gestion.Core</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MarDevs.Gestion.Core</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\Debug\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eval3">
+      <HintPath>..\packages\Varios\Eval3.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Iesi.Collections.4.0.1.4000\lib\net40\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\Varios\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms">
+      <HintPath>..\packages\Varios\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="NHibernate, Version=2.1.0.4000, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\NHibernate.4.0.1.4000\lib\net40\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Atributos\NoAuditableAttribute.cs" />
+    <Compile Include="Base\Archivo.cs" />
+    <Compile Include="Base\Formulario.cs" />
+    <Compile Include="Base\IAuditable.cs" />
+    <Compile Include="Base\IAsignable.cs" />
+    <Compile Include="Base\Persistente.cs" />
+    <Compile Include="Atributos\ClassDesciptorAttribute.cs" />
+    <Compile Include="Convertir.cs" />
+    <Compile Include="Metadatos\Accion.cs" />
+    <Compile Include="Metadatos\CondicionAccion.cs" />
+    <Compile Include="Metadatos\TipoAccion.cs" />
+    <Compile Include="Metadatos\Entidad.cs" />
+    <Compile Include="Metadatos\OperadorAccion.cs" />
+    <Compile Include="Metadatos\ParametroAccion.cs" />
+    <Compile Include="Metadatos\ServicioMD.cs" />
+    <Compile Include="Notas\Nota.cs" />
+    <Compile Include="Numerador.cs" />
+    <Compile Include="Queries\Condicion.cs" />
+    <Compile Include="Queries\Filtro.cs" />
+    <Compile Include="Queries\Operador.cs" />
+    <Compile Include="Queries\OperadorLogico.cs" />
+    <Compile Include="Queries\Query.cs" />
+    <Compile Include="Queries\QueryHelper.cs" />
+    <Compile Include="Recursos\Recursos.cs" />
+    <Compile Include="ReportPrinter.cs" />
+    <Compile Include="Seguimiento\MarcaSeguimiento.cs" />
+    <Compile Include="Base\TrackAsComponent.cs" />
+    <Compile Include="Base\ExcepcionBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\NegocioBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\NoTrackingAttribute.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="ConfigBL.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cronometro.cs" />
+    <Compile Include="Atributos\GridDescriptorAttribute.cs" />
+    <Compile Include="Atributos\NoVisibleEnGrillaAttribute.cs" />
+    <Compile Include="DL.cs" />
+    <Compile Include="Domicilio.cs" />
+    <Compile Include="LayoutColumna.cs" />
+    <Compile Include="LayoutGrilla.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Atributos\EnumDescriptorAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Enumeraciones.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Excepciones\AdministradorDeExcepciones.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Excepciones\ExcepcionAutenticacion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Excepciones\ExcepcionAutenticacionPswdVencido.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Excepciones\ExcepcionConcurrencia.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Excepciones\ExcepcionEliminacion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Excepciones\ExcepcionInsertClaveDuplicada.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Excepciones\ExcepcionNegocios.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Excepciones\ExcepcionTecnica.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Flags\Flags.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Flags\FlagsFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Flags\IFlagsSeguridad.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Base\IPersistente.cs" />
+    <Compile Include="Log.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NHInterceptor.cs" />
+    <Compile Include="Periodo.cs" />
+    <Compile Include="Seguridad\PrincipalSeguridad.cs" />
+    <Compile Include="Seguridad\UsuarioLight.cs" />
+    <Compile Include="Seguridad\Privilegio.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Seguridad\PRV.cs" />
+    <Compile Include="Seguridad\Rol.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Seguridad\RolPrivilegio.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ServicioCorreo.cs" />
+    <Compile Include="ServicioEjecucionAsincrona.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Telefono.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Seguridad\Ticket.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cambio.cs" />
+    <Compile Include="Seguridad\Usuario.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UserSettings.cs" />
+    <Compile Include="Util.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Validacion\LongitudMaximaAttribute.cs" />
+    <Compile Include="Validacion\RequeridoAttribute.cs" />
+    <Compile Include="Validacion\Validador.cs" />
+    <Compile Include="Validacion\ValidarFormulaAttribute.cs" />
+    <Compile Include="Validacion\ValidarRangoAttribute.cs" />
+    <Compile Include="Validacion\ValidarRegexAttribute.cs" />
+    <Compile Include="Validacion\ValidadorBaseAttribute.cs" />
+    <Compile Include="Vistas Personalizadas\Convenciones\VistaPersonalizadaConvencion.cs" />
+    <Compile Include="Vistas Personalizadas\VistaPersonalizada.cs" />
+    <Compile Include="Vistas Personalizadas\VistaPersonalizadaFormatoColumna.cs" />
+    <Compile Include="Vistas Personalizadas\VistaPersonalizadaParametro.cs" />
+    <Compile Include="Vistas Personalizadas\VistaPersonalizadaSummary.cs" />
+    <EmbeddedResource Include="Mapping\Log.hbm.xml" />
+    <EmbeddedResource Include="Seguridad\Mapping\Privilegio.hbm.xml" />
+    <EmbeddedResource Include="Seguridad\Mapping\Rol.hbm.xml" />
+    <EmbeddedResource Include="Seguridad\Mapping\Usuario.hbm.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Seguridad\Mapping\UsuarioLight.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Seguridad\Mapping\PrincipalSeguridad.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Maestros\" />
+    <Folder Include="Negocio\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Vistas Personalizadas\VistaPersonalizada.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Notas\Nota.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Seguimiento\MarcaSeguimiento.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Flags\Flags.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Mapping\Numerador.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Vistas Personalizadas\VistaPersonalizadaParametro.hbm.xml" />
+    <EmbeddedResource Include="Vistas Personalizadas\VistaPersonalizadaSummary.hbm.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Base\Formulario.hbm.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

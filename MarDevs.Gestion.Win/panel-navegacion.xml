@@ -1,0 +1,41 @@
+<panelnavegacion xmlns="urn:panel-navegacion">
+  
+  <panel key="PanelGestion" nombre="Gestión" imagen="OC, MarDevs.Gestion.Win.Properties.Resources">
+    
+  </panel>
+  
+  <panel key="PanelAdministracion" nombre="Configuración" imagen="ImagenAdministracion, MarDevs.Gestion.Win.Properties.Resources">
+    
+    <grupo key="Administracion"		nombre="Administración" imagen="ImagenAdministracion">
+      <opcion key="Usuarios"
+				nombre="Usuarios"
+				imagen="ImagenUsuario"
+				target="MarDevs.Gestion.Win.FormListaUsuarios, Gestion"
+				privilegio="1000" alcance="Total">
+      </opcion>
+
+      <opcion key="Roles"
+				nombre="Roles"
+				imagen="ImagenRol"
+				target="MarDevs.Gestion.Win.FormListaRoles, Gestion"
+				privilegio="1001" alcance="Total">
+      </opcion>      
+     
+
+      <opcion key="VistasPersonalizadas"
+        nombre="Vistas Personalizadas"
+        imagen="ImagenCarpeta"
+        target="MarDevs.Gestion.Win.FormListaVistaPersonalizada, Gestion"
+        privilegio="1004" alcance="Total">
+      </opcion>      
+
+      <opcion key="Formularios"
+        nombre="Formularios"
+        imagen="ImagenFormulario"
+        target="MarDevs.Gestion.Win.FormListaFormulario, Gestion" privilegio="1013" alcance="Total">
+      </opcion>
+
+    </grupo>
+  </panel>
+
+</panelnavegacion>

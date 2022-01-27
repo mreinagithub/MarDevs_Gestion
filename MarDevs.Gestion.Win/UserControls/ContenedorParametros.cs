@@ -1,0 +1,340 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Windows.Forms;
+using Infragistics.Win.UltraWinEditors;
+using Infragistics.Win.Misc;
+using System.Reflection;
+using MarDevs.Gestion.Core;
+
+namespace MarDevs.Gestion.Win
+{
+	[Serializable]
+	public partial class ContenedorParametros : UserControl
+	{
+		public ContenedorParametros()
+		{
+			InitializeComponent();
+		}
+
+		private IList<VistaPersonalizadaParametro> _listaParametros = new List<VistaPersonalizadaParametro>();
+		private static int _altoStandard = 21; //Alto de un control
+		private static Periodo _periodoDefault = null;
+
+		public VistaPersonalizada VistaPersonalizada
+		{
+			set
+			{
+				EliminarControles();
+				_listaParametros = value.Parametros;
+				if (_listaParametros.Count > 0)
+				{
+					this.Visible = true;
+					CrearControles();
+				}
+				else
+					this.Visible = false;
+
+			}
+		}
+		public Dictionary<string, string[]> Valores
+		{
+			get
+			{
+				Dictionary<string, string[]> val = new Dictionary<string, string[]>();
+				foreach (Control control in this.Controls)
+				{
+					if (val.ContainsKey((control.Tag.ToString())))
+						continue;
+
+					string[] str = new string[2];
+					if (control is SelectorString)
+					{
+						SelectorString ss = (SelectorString)control;
+						str[0] = ss.LabelSeleccionado;
+						str[1] = "'%" + Util.PrepararStringSql(ss.Value) + "%'";
+					}
+					else if (control is SelectorPeriodo)
+					{
+						SelectorPeriodo sp = (SelectorPeriodo)control;
+						if (sp.Value == null)
+						{
+							str[0] = "1";
+							str[1] = "1 AND 1";
+						}
+						else
+						{
+							str[0] = sp.LabelSeleccionado;
+							str[1] = String.Format("'{0:yyyyMMdd 00:00:00}' AND '{1:yyyyMMdd 23:59:59}'", sp.Value.Desde, sp.Value.Hasta);
+						}
+					}
+					else if (control is SelectorCombo)
+					{
+						SelectorCombo sc = (SelectorCombo)control;
+						str[0] = sc.LabelSeleccionado;
+						str[1] = "'" + sc.Value.ToString() + "'";
+					}
+					else if (control is SelectorFecha)
+					{
+						SelectorFecha sf = (SelectorFecha)control;
+						str[0] = sf.LabelSeleccionado;
+						str[1] = sf.Value == null ? "" : "'" + sf.Value.Value.Date.ToString("yyyyMMdd") + "'";
+					}
+					else if (control is UltraCheckEditor)
+					{
+						UltraCheckEditor ck = (UltraCheckEditor)control;
+						str[0] = "";
+						str[1] = ck.Checked ? "1" : "0";
+					}
+					if (!String.IsNullOrEmpty(str[1]))
+						val.Add(control.Tag.ToString(), str);
+				}
+				return val;
+			}
+		}
+		public bool dibujarBotonesyLabels = true;
+
+		private void EliminarControles()
+		{
+			this.Controls.Clear();
+		}
+		private void CrearControles()
+		{
+			this.Controls.Clear();
+			int yMax = 0;
+			int derMax = 0;
+			int tab0rder = 0;
+			foreach (VistaPersonalizadaParametro vpp in _listaParametros.Where(item => item.Activo == true).OrderBy(items => items.Orden))
+			{
+				if (!dibujarBotonesyLabels && (vpp.TipoControl == TipoControl.Boton || vpp.TipoControl == TipoControl.Label))
+					continue;
+
+				Control control = null;
+				_periodoDefault = null;
+				switch (vpp.TipoControl)
+				{
+					case TipoControl.Combo:
+						control = new SelectorCombo { AnchoLabel = vpp.AnchoEtiqueta };
+						PoblarControl(vpp, control);
+						break;
+					case TipoControl.Fecha:
+						control = new SelectorFecha { AnchoLabel = vpp.AnchoEtiqueta };
+						PoblarControl(vpp, control);
+						break;
+					case TipoControl.Texto:
+						control = new SelectorString { AnchoLabel = vpp.AnchoEtiqueta };
+						PoblarControl(vpp, control);
+						control.KeyPress += sStr_KeyPress;
+						break;
+					case TipoControl.Periodo:
+						control = new SelectorPeriodo { AnchoLabel = vpp.AnchoEtiqueta };
+						PoblarControl(vpp, control);
+						break;
+					case TipoControl.Label:
+						control = new UltraLabel();
+						break;
+					case TipoControl.Boton:
+						control = new UltraButton
+						{
+							ButtonStyle = Infragistics.Win.UIElementButtonStyle.Office2003ToolbarButton,
+							UseOsThemes = Infragistics.Win.DefaultableBoolean.False
+						};
+						control.Click += btn_Click;
+						break;
+					case TipoControl.Check:
+						control = new UltraCheckEditor
+						{
+							CheckAlign = ContentAlignment.MiddleRight,
+							Checked = (String.IsNullOrEmpty(vpp.ConsultaDefault) ? false : Convert.ToBoolean(vpp.ConsultaDefault))
+						};
+						break;
+				}
+				if (control != null)
+				{
+					control.Name = vpp.IdParametro;
+					control.Text = vpp.Etiqueta;
+					control.Height = vpp.Alto;
+					control.Width = vpp.Ancho;
+					control.Tag = vpp;
+					control.Location = new Point(vpp.PuntoX, vpp.PuntoY);
+					control.TabIndex = tab0rder++;
+					this.Controls.Add(control);
+					if (control is SelectorPeriodo && _periodoDefault != null)
+						(control as SelectorPeriodo).comboQueBuscar.Value = _periodoDefault;
+				}
+
+				if (vpp.PuntoY > yMax)
+					yMax = vpp.PuntoY;
+				if ((vpp.PuntoX + vpp.Ancho) > derMax)
+					derMax = vpp.PuntoX + vpp.Ancho;
+			}
+			//Reacomodar contoles contenedores						
+			this.Width = derMax;
+			Control ctrl = this.Parent;
+			while (ctrl != null && ctrl.GetType() != typeof(Infragistics.Win.Misc.UltraExpandableGroupBox))
+				ctrl = ctrl.Parent;
+			if (ctrl != null)
+				ctrl.Height = yMax + _altoStandard * 2 + 15;
+			this.Dock = DockStyle.Left;
+		}
+
+		private void PoblarControl(VistaPersonalizadaParametro vpp, Control control)
+		{
+			if (control is SelectorString)
+			{
+				SelectorString ss = (SelectorString)control;
+				vpp.ObtenerPropiedadesParaControl().ForEach(prop => ss.AgregarLabel(prop[0], prop[1]));
+			}
+			else if (control is SelectorPeriodo)
+			{
+				SelectorPeriodo sp = (SelectorPeriodo)control;				
+				vpp.ObtenerPropiedadesParaControl().ForEach(prop => sp.AgregarLabel(prop[0], prop[1]));
+				_periodoDefault = Periodo.ObtenerDesdeTexto(vpp.ConsultaDefault);
+
+			}
+			else if (control is SelectorCombo)
+			{
+				SelectorCombo sc = (SelectorCombo)control;
+				vpp.ObtenerPropiedadesParaControl().ForEach(prop => sc.AgregarLabel(prop[0], prop[1]));
+				if (!String.IsNullOrEmpty(vpp.ConsultaDatos))
+				{
+					DataTable dt = Consultar(vpp.ConsultaDatos);
+					if (dt != null && dt.Rows.Count > 0)
+					{
+						foreach (DataRow dr in dt.Rows)
+						{
+							if (dr.Table.Columns.Count >= 2)
+								sc.comboQueBuscar.Items.Add(dr[0].ToString(), dr[1].ToString());
+							else if (dr.Table.Columns.Count == 1)
+								sc.comboQueBuscar.Items.Add(dr[0].ToString(), dr[0].ToString());
+						}
+					}
+				}
+				if (!String.IsNullOrEmpty(vpp.ConsultaDefault))
+				{
+					DataTable dt = Consultar(vpp.ConsultaDefault);
+					if (dt != null && dt.Rows.Count > 0)
+						sc.Value = Convert.ToString(dt.Rows[0][0]);
+				}
+			}
+			else if (control is SelectorFecha)
+			{
+				SelectorFecha sp = (SelectorFecha)control;
+				vpp.ObtenerPropiedadesParaControl().ForEach(prop => sp.AgregarLabel(prop[0], prop[1]));
+				sp.Value = DateTime.Today;
+				if (!String.IsNullOrEmpty(vpp.ConsultaDefault))
+				{
+					DataTable dt = Consultar(vpp.ConsultaDefault);
+					if (dt != null && dt.Rows.Count > 0)
+					{
+						DateTime fecha;
+						if (DateTime.TryParse(dt.Rows[0][0].ToString(), out fecha))
+							sp.Value = fecha;
+					}
+				}
+			}
+		}
+
+		public DataTable Consultar(string consulta)
+		{
+			using (DL dl = DL.ObtenerSesion())
+			{
+				return dl.EjecutarSQL(consulta);
+			}
+		}
+		public void RestituirDefaults()
+		{
+			foreach (Control ctrl in this.Controls)
+			{
+				if (ctrl.Tag != null && ctrl.Tag is VistaPersonalizadaParametro)
+				{
+					VistaPersonalizadaParametro vpp = (VistaPersonalizadaParametro)ctrl.Tag;
+					switch (vpp.TipoControl)
+					{
+						case TipoControl.Check:
+							((UltraCheckEditor)ctrl).Checked = (String.IsNullOrEmpty(vpp.ConsultaDefault) ? false : Convert.ToBoolean(vpp.ConsultaDefault));
+							break;
+						case TipoControl.Texto:
+							((SelectorString)ctrl).Limpiar();
+							break;
+						case TipoControl.Periodo:
+							((SelectorPeriodo)ctrl).Value = Periodo.ObtenerDesdeTexto(vpp.ConsultaDefault);
+							break;
+						case TipoControl.Fecha:
+							SelectorFecha sf = (SelectorFecha)ctrl;
+							sf.Value = DateTime.Today;
+							if (!String.IsNullOrEmpty(vpp.ConsultaDefault))
+							{
+								DataTable dt = Consultar(vpp.ConsultaDefault);
+								if (dt != null && dt.Rows.Count > 0)
+								{
+									DateTime fecha;
+									if (DateTime.TryParse(dt.Rows[0][0].ToString(), out fecha))
+										sf.Value = fecha;
+								}
+							}
+							break;
+						case TipoControl.Combo:
+							SelectorCombo sc = (SelectorCombo)ctrl;
+							if (!String.IsNullOrEmpty(vpp.ConsultaDefault))
+							{
+								DataTable dt = Consultar(vpp.ConsultaDefault);
+								if (dt != null && dt.Rows.Count > 0)
+								{
+									string valorDefault = Convert.ToString(dt.Rows[0][0]);
+									sc.Value = valorDefault;
+								}
+							}
+							break;
+					}
+				}
+			}
+		}
+
+		private void sStr_KeyPress(object sender, KeyPressEventArgs e)
+		{
+			try
+			{
+				if ((Keys)e.KeyChar == Keys.Enter && this.Parent != null && this.ParentForm is FormListaBase)
+					((FormListaBase)this.ParentForm).ActualizarListaDesdeOrigen();
+			}
+			catch (Exception ex)
+			{
+				Mensaje.MostrarError(ex);
+			}
+		}
+		private void btn_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				VistaPersonalizadaParametro vpp = (VistaPersonalizadaParametro)(((UltraButton)sender).Tag);
+				if (vpp == null)
+					return;
+				if (String.IsNullOrEmpty(vpp.ConsultaDefault))
+					return;
+				if (this.Parent == null || !(this.ParentForm is FormListaBase))
+					return;
+				string metodo = vpp.ConsultaDefault.Trim();
+				FormListaBase mlb = (FormListaBase)this.ParentForm;
+				MemberInfo[] miembros = mlb.GetType().GetMember(metodo, MemberTypes.Method, BindingFlags.Public | BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Static);
+				if (miembros.Length == 0)
+					throw new Exception("No se encuentra el metodo " + metodo);
+				MethodInfo info = miembros[0] as MethodInfo;
+				if (info != null)
+				{
+					object resu = info.Invoke(mlb, null);
+					if (!(resu is Boolean))
+						return;
+					if ((bool)resu == false)
+						return;
+				}
+			}
+			catch (Exception ex)
+			{
+				Mensaje.MostrarError(ex);
+			}
+		}
+	}
+}

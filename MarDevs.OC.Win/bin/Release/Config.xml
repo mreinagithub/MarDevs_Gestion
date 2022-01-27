@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Server>FRANSI</Server>
-  <Instancia />
-  <Puerto />
-  <BaseDatos>GREP</BaseDatos>
-  <VersionReportada>1.4.0.0</VersionReportada>
-</Config>
