@@ -124,27 +124,27 @@ namespace MarDevs.Gestion.Win
                         Logger.Configurar(App.NombreInstalacion);
 
 
-						//Enviamos mail de prueba
-						//Logger.Error("Error de prueba",new Exception("Este es un error de prueba"));                   
+                        //Enviamos mail de prueba
+                        Logger.Error("Error de prueba",new Exception("Este es un error de prueba"));                   
 
-						//Usamos servicio de correo para probar
-						//var servicioCorreo = new ServicioCorreo();
-						//var servicionAsync = new ServicioEjecucionAsincrona();
-						//servicionAsync.EjectutarAsincronico(async () =>
-						//{
-						//	try
-						//	{
-						//		await servicioCorreo.EnviarEmailAsync("martinreina84@gmail.com", "Prueba de Envio", "Este es el cuerpo del envío");
-						//	}
-						//	catch (Exception ex)
-						//	{
-						//		Mensaje.MostrarError(ex);
-						//	}
-						//});
+                        //Usamos servicio de correo para probar
+                        //var servicioCorreo = new ServicioCorreo();
+                        //var servicionAsync = new ServicioEjecucionAsincrona();
+                        //servicionAsync.EjectutarAsincronico(async () =>
+                        //{
+                        //    try
+                        //    {
+                        //        await servicioCorreo.EnviarEmailAsync("martinreina84@gmail.com", "Prueba de Envio", "Este es el cuerpo del envío");
+                        //    }
+                        //    catch (Exception ex)
+                        //    {
+                        //        Mensaje.MostrarError(ex);
+                        //    }
+                        //});
 
 
 
-						if (ticket != null)
+                        if (ticket != null)
 						{
 							ConfigBL.ticket = ticket;
 							App.RegistrarLogIn();

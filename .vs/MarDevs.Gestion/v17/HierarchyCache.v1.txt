@@ -1,25 +1,333 @@
 ﻿++Solución "MarDevs.Gestion" ‎(2 de 2 proyectos)
 i:{00000000-0000-0000-0000-000000000000}:MarDevs.Gestion.sln
+++MarDevs.Gestion.Core
+i:{00000000-0000-0000-0000-000000000000}:MarDevs.Gestion.Core
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
+++Properties
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\properties\
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\
+++Referencias
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
+++Atributos
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\
+++Base
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\base\
+++Archivo.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\archivo.cs
+++ExcepcionBase.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\excepcionbase.cs
+++Formulario.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\formulario.cs
+++Formulario.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\formulario.hbm.xml
+++IAsignable.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\iasignable.cs
+++IAuditable.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\iauditable.cs
+++IPersistente.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\ipersistente.cs
+++NegocioBase.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\negociobase.cs
+++NoTrackingAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\notrackingattribute.cs
+++Persistente.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\persistente.cs
+++TrackAsComponent.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\trackascomponent.cs
+++Excepciones
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\
+++Flags
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\
+++Maestros
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\maestros\
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\maestros\
+++Mapping
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\mapping\
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\
+++Metadatos
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\
+++Negocio
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\negocio\
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\negocio\
+++Notas
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\notas\
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\notas\
+++Queries
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\
+++Recursos
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\recursos\
+++Seguimiento
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguimiento\
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\seguimiento\
+++Seguridad
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\seguridad\
+++Validacion
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\
+++Vistas Personalizadas
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\vistas personalizadas\
+++AssemblyInfo.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\assemblyinfo.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\assemblyinfo.cs
+++Cambio.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\cambio.cs
+++Config.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\config.cs
+++ConfigBL.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\configbl.cs
+++Convertir.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\convertir.cs
+++Cronometro.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\cronometro.cs
+++DL.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\dl.cs
+++Domicilio.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\domicilio.cs
+++Enumeraciones.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\enumeraciones.cs
+++LayoutColumna.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\layoutcolumna.cs
+++LayoutGrilla.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\layoutgrilla.cs
+++Log.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\log.cs
+++Logger.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\logger.cs
+++NHInterceptor.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\nhinterceptor.cs
+++Numerador.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\numerador.cs
+++packages.config
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\packages.config
+++Periodo.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\periodo.cs
+++ReportPrinter.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\reportprinter.cs
+++ServicioCorreo.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\serviciocorreo.cs
+++ServicioEjecucionAsincrona.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\servicioejecucionasincrona.cs
+++Settings.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\settings.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\settings.cs
+++Telefono.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\telefono.cs
+++UserSettings.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\usersettings.cs
+++Util.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\util.cs
+++Eval3
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+++Iesi.Collections
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+++log4net
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+++Microsoft.ReportViewer.WinForms
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+++Microsoft.VisualBasic
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
+++NHibernate
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+++System
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
+++System.configuration
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
+++System.Data
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
+++System.Drawing
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
+++System.Windows.Forms
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
+++System.XML
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
+++ClassDesciptorAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\classdesciptorattribute.cs
+++EnumDescriptorAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\enumdescriptorattribute.cs
+++GridDescriptorAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\griddescriptorattribute.cs
+++NoAuditableAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\noauditableattribute.cs
+++NoVisibleEnGrillaAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\novisibleengrillaattribute.cs
+++AdministradorDeExcepciones.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\administradordeexcepciones.cs
+++ExcepcionAutenticacion.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcionautenticacion.cs
+++ExcepcionAutenticacionPswdVencido.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcionautenticacionpswdvencido.cs
+++ExcepcionConcurrencia.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcionconcurrencia.cs
+++ExcepcionEliminacion.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcioneliminacion.cs
+++ExcepcionInsertClaveDuplicada.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcioninsertclaveduplicada.cs
+++ExcepcionNegocios.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcionnegocios.cs
+++ExcepcionTecnica.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepciontecnica.cs
+++Flags.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\flags.cs
+++Flags.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\flags.hbm.xml
+++FlagsFactory.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\flagsfactory.cs
+++IFlagsSeguridad.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\iflagsseguridad.cs
+++Log.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\mapping\log.hbm.xml
+++Numerador.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\mapping\numerador.hbm.xml
+++Accion.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\accion.cs
+++CondicionAccion.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\condicionaccion.cs
+++Entidad.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\entidad.cs
+++OperadorAccion.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\operadoraccion.cs
+++ParametroAccion.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\parametroaccion.cs
+++ServicioMD.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\serviciomd.cs
+++TipoAccion.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\tipoaccion.cs
+++Nota.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\notas\nota.cs
+++Nota.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\notas\nota.hbm.xml
+++Condicion.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\condicion.cs
+++Filtro.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\filtro.cs
+++Operador.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\operador.cs
+++OperadorLogico.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\operadorlogico.cs
+++Query.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\query.cs
+++QueryHelper.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\queryhelper.cs
+++Recursos.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\recursos\recursos.cs
+++MarcaSeguimiento.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguimiento\marcaseguimiento.cs
+++MarcaSeguimiento.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguimiento\marcaseguimiento.hbm.xml
+++PrincipalSeguridad.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\principalseguridad.cs
+++Privilegio.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\privilegio.cs
+++PRV.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\prv.cs
+++Rol.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\rol.cs
+++RolPrivilegio.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\rolprivilegio.cs
+++Ticket.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\ticket.cs
+++Usuario.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\usuario.cs
+++UsuarioLight.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\usuariolight.cs
+++LongitudMaximaAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\longitudmaximaattribute.cs
+++RequeridoAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\requeridoattribute.cs
+++Validador.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validador.cs
+++ValidadorBaseAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validadorbaseattribute.cs
+++ValidarFormulaAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validarformulaattribute.cs
+++ValidarRangoAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validarrangoattribute.cs
+++ValidarRegexAttribute.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validarregexattribute.cs
+++Convenciones
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\convenciones\
+++VistaPersonalizada.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizada.cs
+++VistaPersonalizada.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizada.hbm.xml
+++VistaPersonalizadaFormatoColumna.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadaformatocolumna.cs
+++VistaPersonalizadaParametro.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadaparametro.cs
+++VistaPersonalizadaParametro.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadaparametro.hbm.xml
+++VistaPersonalizadaSummary.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadasummary.cs
+++VistaPersonalizadaSummary.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadasummary.hbm.xml
+++PrincipalSeguridad.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\principalseguridad.hbm.xml
+++Privilegio.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\privilegio.hbm.xml
+++Rol.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\rol.hbm.xml
+++Usuario.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\usuario.hbm.xml
+++UsuarioLight.hbm.xml
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\usuariolight.hbm.xml
+++VistaPersonalizadaConvencion.cs
+i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\convenciones\vistapersonalizadaconvencion.cs
 ++MarDevs.Gestion.Win
 i:{00000000-0000-0000-0000-000000000000}:MarDevs.Gestion.Win
-++Properties
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\properties\
+++Configuracion
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\configuracion\
+++PanelNavegacion
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\panelnavegacion\
+++Resources
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\resources\
+++Updater
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\updater\
+++UserControls
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\usercontrols\
+++app.config
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\app.config
+++App.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\app.cs
+++chimes.wav
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\chimes.wav
+++chord.wav
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\chord.wav
+++Comandos-ToolBar.mod.xml
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\comandos-toolbar.mod.xml
+++error.ico
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\error.ico
+++FormInvalidadoEventArgs.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\forminvalidadoeventargs.cs
+++FormLog.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\formlog.cs
+++FormMensaje.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\formmensaje.cs
+++GRep.ico
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\grep.ico
+++ObjetoGuardadoEventArgs.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\objetoguardadoeventargs.cs
+++panel-navegacion.xml
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\panel-navegacion.xml
+++TransDialog.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\transdialog.cs
 ++DataSources
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\
 ++licenses.licx
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\licenses.licx
 ++Resources.resx
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\resources.resx
-++Resources.Designer.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\resources.designer.cs
 ++Settings.settings
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\settings.settings
-++Settings.Designer.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\settings.designer.cs
-++Referencias
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
 ++AutoUpdater
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
 ++CSharpZipLib
@@ -68,131 +376,16 @@ i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
 ++Infragistics4.Win.v12.1
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-++MarDevs.Gestion.Core
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-i:{00000000-0000-0000-0000-000000000000}:MarDevs.Gestion.Core
-++Microsoft.VisualBasic
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
 ++Microsoft.VisualBasic.PowerPacks.Vs
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-++System
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
-++System.configuration
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
-++System.Data
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
 ++System.Design
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-++System.Drawing
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
 ++System.Runtime.Serialization.Formatters.Soap
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
 ++System.Web.Extensions
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-++System.Windows.Forms
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
-++System.XML
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
 ++System.Xml.Linq
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:
-++Base
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\base\
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\
-++Configuracion
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\configuracion\
-++Maestros
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\maestros\
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\maestros\
-++Negocio
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\negocio\
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\negocio\
-++Notas
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\notas\
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\notas\
-++PanelNavegacion
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\panelnavegacion\
-++Resources
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\resources\
-++Seguimiento
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\seguimiento\
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguimiento\
-++Seguridad
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\seguridad\
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\
-++Updater
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\updater\
-++UserControls
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\usercontrols\
-++Vistas Personalizadas
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\vistas personalizadas\
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\
-++app.config
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\app.config
-++App.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\app.cs
-++AssemblyInfo.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\assemblyinfo.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\assemblyinfo.cs
-++chimes.wav
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\chimes.wav
-++chord.wav
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\chord.wav
-++Comandos-ToolBar.mod.xml
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\comandos-toolbar.mod.xml
-++error.ico
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\error.ico
-++FormInvalidadoEventArgs.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\forminvalidadoeventargs.cs
-++FormLog.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\formlog.cs
-++FormMensaje.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\formmensaje.cs
-++GRep.ico
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\grep.ico
-++ObjetoGuardadoEventArgs.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\objetoguardadoeventargs.cs
-++panel-navegacion.xml
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\panel-navegacion.xml
-++Settings.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\settings.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\settings.cs
-++TransDialog.cs
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\transdialog.cs
-++Daruma.GRep.Core.Deposito.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.grep.core.deposito.datasource
-++Daruma.GRep.Core.PedidoRepuesto.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.grep.core.pedidorepuesto.datasource
-++Daruma.GRep.Core.TipoPedido.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.grep.core.tipopedido.datasource
-++Daruma.Lufthansa.Core.Aerolinea.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.aerolinea.datasource
-++Daruma.Lufthansa.Core.Area.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.area.datasource
-++Daruma.Lufthansa.Core.Cliente.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.cliente.datasource
-++Daruma.Lufthansa.Core.Domicilio.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.domicilio.datasource
-++Daruma.Lufthansa.Core.Flags.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.flags.datasource
-++Daruma.Lufthansa.Core.GuiaImportacion.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.guiaimportacion.datasource
-++Daruma.Lufthansa.Core.Log.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.log.datasource
-++Daruma.Lufthansa.Core.MonedaIATA.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.monedaiata.datasource
-++Daruma.Lufthansa.Core.Pedido.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.pedido.datasource
-++Daruma.Lufthansa.Core.Rol.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.rol.datasource
-++Daruma.Lufthansa.Core.Usuario.datasource
-i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.usuario.datasource
 ++EditorBase.cs
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\base\editorbase.cs
 ++Form1.cs
@@ -547,6 +740,38 @@ i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proye
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\formmensaje.resx
 ++TransDialog.resx
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\transdialog.resx
+++Daruma.GRep.Core.Deposito.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.grep.core.deposito.datasource
+++Daruma.GRep.Core.PedidoRepuesto.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.grep.core.pedidorepuesto.datasource
+++Daruma.GRep.Core.TipoPedido.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.grep.core.tipopedido.datasource
+++Daruma.Lufthansa.Core.Aerolinea.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.aerolinea.datasource
+++Daruma.Lufthansa.Core.Area.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.area.datasource
+++Daruma.Lufthansa.Core.Cliente.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.cliente.datasource
+++Daruma.Lufthansa.Core.Domicilio.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.domicilio.datasource
+++Daruma.Lufthansa.Core.Flags.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.flags.datasource
+++Daruma.Lufthansa.Core.GuiaImportacion.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.guiaimportacion.datasource
+++Daruma.Lufthansa.Core.Log.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.log.datasource
+++Daruma.Lufthansa.Core.MonedaIATA.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.monedaiata.datasource
+++Daruma.Lufthansa.Core.Pedido.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.pedido.datasource
+++Daruma.Lufthansa.Core.Rol.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.rol.datasource
+++Daruma.Lufthansa.Core.Usuario.datasource
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\datasources\daruma.lufthansa.core.usuario.datasource
+++Resources.Designer.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\properties\settings.designer.cs
 ++EditorBase.Designer.cs
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\base\editorbase.designer.cs
 ++EditorBase.resx
@@ -745,228 +970,3 @@ i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proye
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\vistas personalizadas\formvistapersonalizadasummary.designer.cs
 ++FormVistaPersonalizadaSummary.resx
 i:{8aac3e35-cbd5-414f-80c9-65a02ab1118b}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.win\vistas personalizadas\formvistapersonalizadasummary.resx
-++Eval3
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
-++Iesi.Collections
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
-++log4net
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
-++NHibernate
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:
-++Atributos
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\
-++Excepciones
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\
-++Flags
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\
-++Mapping
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\mapping\
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\
-++Metadatos
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\
-++Queries
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\
-++Recursos
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\recursos\
-++Validacion
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\
-++Cambio.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\cambio.cs
-++Config.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\config.cs
-++ConfigBL.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\configbl.cs
-++Convertir.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\convertir.cs
-++Cronometro.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\cronometro.cs
-++DL.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\dl.cs
-++Domicilio.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\domicilio.cs
-++Enumeraciones.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\enumeraciones.cs
-++LayoutColumna.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\layoutcolumna.cs
-++LayoutGrilla.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\layoutgrilla.cs
-++Log.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\log.cs
-++Logger.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\logger.cs
-++NHInterceptor.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\nhinterceptor.cs
-++Numerador.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\numerador.cs
-++packages.config
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\packages.config
-++Periodo.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\periodo.cs
-++ReportPrinter.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\reportprinter.cs
-++ServicioCorreo.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\serviciocorreo.cs
-++ServicioEjecucionAsincrona.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\servicioejecucionasincrona.cs
-++Telefono.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\telefono.cs
-++UserSettings.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\usersettings.cs
-++Util.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\util.cs
-++ClassDesciptorAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\classdesciptorattribute.cs
-++EnumDescriptorAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\enumdescriptorattribute.cs
-++GridDescriptorAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\griddescriptorattribute.cs
-++NoAuditableAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\noauditableattribute.cs
-++NoVisibleEnGrillaAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\atributos\novisibleengrillaattribute.cs
-++Archivo.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\archivo.cs
-++ExcepcionBase.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\excepcionbase.cs
-++Formulario.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\formulario.cs
-++Formulario.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\formulario.hbm.xml
-++IAsignable.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\iasignable.cs
-++IAuditable.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\iauditable.cs
-++IPersistente.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\ipersistente.cs
-++NegocioBase.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\negociobase.cs
-++NoTrackingAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\notrackingattribute.cs
-++Persistente.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\persistente.cs
-++TrackAsComponent.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\base\trackascomponent.cs
-++AdministradorDeExcepciones.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\administradordeexcepciones.cs
-++ExcepcionAutenticacion.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcionautenticacion.cs
-++ExcepcionAutenticacionPswdVencido.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcionautenticacionpswdvencido.cs
-++ExcepcionConcurrencia.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcionconcurrencia.cs
-++ExcepcionEliminacion.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcioneliminacion.cs
-++ExcepcionInsertClaveDuplicada.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcioninsertclaveduplicada.cs
-++ExcepcionNegocios.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepcionnegocios.cs
-++ExcepcionTecnica.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\excepciones\excepciontecnica.cs
-++Flags.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\flags.cs
-++Flags.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\flags.hbm.xml
-++FlagsFactory.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\flagsfactory.cs
-++IFlagsSeguridad.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\flags\iflagsseguridad.cs
-++Log.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\mapping\log.hbm.xml
-++Numerador.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\mapping\numerador.hbm.xml
-++Accion.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\accion.cs
-++CondicionAccion.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\condicionaccion.cs
-++Entidad.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\entidad.cs
-++OperadorAccion.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\operadoraccion.cs
-++ParametroAccion.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\parametroaccion.cs
-++ServicioMD.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\serviciomd.cs
-++TipoAccion.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\metadatos\tipoaccion.cs
-++Nota.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\notas\nota.cs
-++Nota.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\notas\nota.hbm.xml
-++Condicion.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\condicion.cs
-++Filtro.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\filtro.cs
-++Operador.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\operador.cs
-++OperadorLogico.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\operadorlogico.cs
-++Query.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\query.cs
-++QueryHelper.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\queries\queryhelper.cs
-++Recursos.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\recursos\recursos.cs
-++MarcaSeguimiento.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguimiento\marcaseguimiento.cs
-++MarcaSeguimiento.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguimiento\marcaseguimiento.hbm.xml
-++PrincipalSeguridad.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\principalseguridad.cs
-++Privilegio.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\privilegio.cs
-++PRV.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\prv.cs
-++Rol.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\rol.cs
-++RolPrivilegio.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\rolprivilegio.cs
-++Ticket.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\ticket.cs
-++Usuario.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\usuario.cs
-++UsuarioLight.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\usuariolight.cs
-++LongitudMaximaAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\longitudmaximaattribute.cs
-++RequeridoAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\requeridoattribute.cs
-++Validador.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validador.cs
-++ValidadorBaseAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validadorbaseattribute.cs
-++ValidarFormulaAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validarformulaattribute.cs
-++ValidarRangoAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validarrangoattribute.cs
-++ValidarRegexAttribute.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\validacion\validarregexattribute.cs
-++Convenciones
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\convenciones\
-++VistaPersonalizada.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizada.cs
-++VistaPersonalizada.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizada.hbm.xml
-++VistaPersonalizadaFormatoColumna.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadaformatocolumna.cs
-++VistaPersonalizadaParametro.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadaparametro.cs
-++VistaPersonalizadaParametro.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadaparametro.hbm.xml
-++VistaPersonalizadaSummary.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadasummary.cs
-++VistaPersonalizadaSummary.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\vistapersonalizadasummary.hbm.xml
-++PrincipalSeguridad.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\principalseguridad.hbm.xml
-++Privilegio.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\privilegio.hbm.xml
-++Rol.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\rol.hbm.xml
-++Usuario.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\usuario.hbm.xml
-++UsuarioLight.hbm.xml
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\seguridad\mapping\usuariolight.hbm.xml
-++VistaPersonalizadaConvencion.cs
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:h:\documents\google drive\mardevs\proyectos\mardevs.gestion\mardevs.gestion.core\vistas personalizadas\convenciones\vistapersonalizadaconvencion.cs
-++Microsoft.ReportViewer.WinForms
-i:{015ae234-1eef-497b-ac2d-4f5878e27dfc}:

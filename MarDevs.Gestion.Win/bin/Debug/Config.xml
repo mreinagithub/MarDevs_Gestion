@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Server>MARTIN-PC</Server>
-  <Instancia />
-  <Puerto>1488</Puerto>
-  <BaseDatos>MARDEVS_GESTION</BaseDatos>
-  <VersionReportada>1.0.0.0</VersionReportada>
-</Config>
