@@ -125,7 +125,7 @@ namespace MarDevs.Gestion.Win
 
 
                         //Enviamos mail de prueba
-                        Logger.Error("Error de prueba",new Exception("Este es un error de prueba"));                   
+                        //Logger.Error("Error de prueba",new Exception("Este es un error de prueba"));                   
 
                         //Usamos servicio de correo para probar
                         //var servicioCorreo = new ServicioCorreo();
